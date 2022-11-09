@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main section{
+    margin-bottom:1.5rem;
+}
+
+.message h1{
+    text-align: center;
+}
+
+[class *= "col-"].revolutionary-mustache{
+    height: 50%;
+}
+
+.becco{
+    background-color: #f17025;
+}
+.becco-light{
+    background-color: #ff8945;
+}
+.corpo{
+    background-color: #eccd1d;
+}
+.corpo-shadow{
+    background-color: #c9ab05;
+}
+.corpo-light{
+    background-color: #fde24b;
+}
+.eye{
+    background-color: black;
+}
