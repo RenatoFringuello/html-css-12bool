@@ -18,7 +18,9 @@
     justify-content: flex-end;
 }
 
-[class *= "col-"]{
+[class *= "col"]{
+    flex:0 0 auto;
+
     text-align: center;
     background-color: #1f1fff;
     color: white;
@@ -26,10 +28,16 @@
     padding: 1rem;
     min-height: 50px;
 }
-[class *= "col-"].nested{
+[class *= "col"].nested{
     background-color: rgb(72, 236, 72);
+    border: 1px solid #1f1fff;
 }
 
+.col{
+    flex-grow: 1;
+    flex-shrink: 0;
+    max-width: 100%;
+}
 /* .cols */
 .col-1{
     flex-basis: calc((100% / 12) * 1);

@@ -19,11 +19,12 @@
     justify-content: flex-end;
 }
 
-[class *= "col-"]{
+[class *= "col"]{
+    flex: 0 0 auto;
     text-align: center;
     height: 100%;
 }
-[class *= "col-"].nested{
+[class *= "col"].nested{
     background-color: rgb(72, 236, 72);
 }
 
