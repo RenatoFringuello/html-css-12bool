@@ -8,13 +8,25 @@
     flex-wrap: wrap;
 }
 
-.flex-between{
+.align-start{
+    align-items: flex-start;
+}
+.align-center{
+    align-items: center;
+}
+.align-end{
+    align-items: flex-end;
+}
+.justify-between{
     justify-content: space-between;
 }
-.flex-center{
+.justify-around{
+    justify-content: space-around;
+}
+.justify-center{
     justify-content: center;
 }
-.flex-end{
+.justify-end{
     justify-content: flex-end;
 }
 
@@ -31,6 +43,9 @@
 [class *= "col"].nested{
     background-color: rgb(72, 236, 72);
     border: 1px solid #1f1fff;
+}
+[class *= "col"].double{
+    min-height: 100px;
 }
 
 .col{
