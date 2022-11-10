@@ -15,9 +15,6 @@ main section{
     text-align: center;
 }
 
-[class *= "col-"].revolutionary-mustache{
-    height: 50%;
-}
 
 .becco{
     background-color: #f17025;
